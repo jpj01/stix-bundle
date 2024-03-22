@@ -3,10 +3,11 @@
   "id": "bundle--716fd67b-ba74-44db-8d4c-2efde05ddbaa",
   "objects": [
     {
-      "type": "Marking-definition",
+      "type": "indicator",
       "id": "T112",
       "name": "Web Service",
-       "tactic":"lateral"
+       "tactic":"T112: lateral",
+"description": "The Evil Org threat actor group"
     }
 
 
@@ -16,16 +17,18 @@
 
 
 {
-      "type": "Threat-actor",
+      "type": "threat-actor",
       "id": "G001",
       "name": "APT24",
-       "tactic":"dec1"
+       "tactic":"dec1",
+"description": "The Evil Org threat actor group"
     },
 {
-      "type": "Threat-actor",
+      "type": "threat-actor",
       "id": "G111",
       "name": "Lazarus",
-       "tactic":"desc2"
+       "tactic":"desc2",
+"description": "The Evil Org threat actor group"
 }
 
 
@@ -40,13 +43,15 @@
       "type": "Indicator",
       "id": "T114",
       "name": "Data Exfiltration",
-       "tactic":"lateral"
+       "tactic":"lateral",
+"description": "The Evil Org threat actor group"
     },
     {
       "type": "Indicator",
       "id": "T001",
       "name": "Standard Cryptographic Protocol",
-       "tactic":"command and control"
+       "tactic":"command and control",
+"description": "The Evil Org threat actor group"
     }
 
 ,
@@ -57,14 +62,14 @@
       "id": "R1",
       "source_ref": "G001",
       "target_ref": "T114",
-      "relationship_type": "uses"
+      "relationship_type": "next stage attack"
     },
     {
       "type": "relationship",
       "id": "R2",
       "source_ref": "G111",
       "target_ref": "T001",
-      "relationship_type": "uses"
+      "relationship_type": "next stage attack"
     },
 
 
@@ -74,14 +79,14 @@
       "id": "R3",
       "source_ref": "T112",
       "target_ref": "G001",
-      "relationship_type": "uses"
+      "relationship_type": "used by"
     },
     {
       "type": "relationship",
       "id": "R4",
       "source_ref": "T112",
       "target_ref": "G111",
-      "relationship_type": "uses"
+      "relationship_type": "used by"
     }
   ]
 }
