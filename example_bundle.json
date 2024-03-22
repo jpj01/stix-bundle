@@ -17,19 +17,26 @@
 
 
 {
-      "type": "threat-actor",
-      "id": "G001",
-      "name": "APT24",
-       "tactic":"dec1",
-"description": "The Evil Org threat actor group"
-    },
-{
-      "type": "threat-actor",
-      "id": "G111",
-      "name": "Lazarus",
-       "tactic":"desc2",
-"description": "The Evil Org threat actor group"
-}
+    "type": "threat-actor",
+    "id": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",
+    "name": "Lazarus Group",
+    "tactic": "dec1",
+    "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) is a North Korean state-sponsored cyber threat group that has been attributed to the Reconnaissance General Bureau.(Citation: US-CERT HIDDEN COBRA June 2017)(Citation: Treasury North Korean Cyber Groups September 2019) The group has been active since at least 2009 and was reportedly responsible for the November 2014 destructive wiper attack against Sony Pictures Entertainment as part of a campaign named Operation Blockbuster by Novetta. Malware used by [Lazarus Group](https://attack.mitre.org/groups/G0032) correlates to other reported campaigns, including Operation Flame, Operation 1Mission, Operation Troy, DarkSeoul, and Ten Days of Rain. (Citation: Novetta Blockbuster)\n\nNorth Korean group definitions are known to have significant overlap, and some security researchers report all North Korean state-sponsored cyber activity under the name [Lazarus Group](https://attack.mitre.org/groups/G0032) instead of tracking clusters or subgroups, such as [Andariel](https://attack.mitre.org/groups/G0138), [APT37](https://attack.mitre.org/groups/G0067), [APT38](https://attack.mitre.org/groups/G0082), and [Kimsuky](https://attack.mitre.org/groups/G0094).   "
+  },
+  {
+    "type": "threat-actor",
+    "id": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",
+    "name": "Higaisa",
+    "tactic": "dec1",
+    "description": "[Higaisa](https://attack.mitre.org/groups/G0126) is a threat group suspected to have South Korean origins. [Higaisa](https://attack.mitre.org/groups/G0126) has targeted government, public, and trade organizations in North Korea; however, they have also carried out attacks in China, Japan, Russia, Poland, and other nations. [Higaisa](https://attack.mitre.org/groups/G0126) was first disclosed in early 2019 but is assessed to have operated as early as 2009.(Citation: Malwarebytes Higaisa 2020)(Citation: Zscaler Higaisa 2020)(Citation: PTSecurity Higaisa 2020)"
+  },
+  {
+    "type": "threat-actor",
+    "id": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",
+    "name": "APT41",
+    "tactic": "dec1",
+    "description": "[APT41](https://attack.mitre.org/groups/G0096) is a threat group that researchers have assessed as Chinese state-sponsored espionage group that also conducts financially-motivated operations. Active since at least 2012, [APT41](https://attack.mitre.org/groups/G0096) has been observed targeting healthcare, telecom, technology, and video game industries in 14 countries. [APT41](https://attack.mitre.org/groups/G0096) overlaps at least partially with public reporting on groups including BARIUM and [Winnti Group](https://attack.mitre.org/groups/G0044).(Citation: FireEye APT41 Aug 2019)(Citation: Group IB APT 41 June 2021)\n"
+  }
 
 
 
