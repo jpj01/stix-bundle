@@ -1,0 +1,17 @@
+{
+  "type": "bundle",
+  "id": "bundle--8f5561bd-05a4-42d6-a684-2c0d8d6c1ad2",
+  "objects": [
+    {
+      "type": "identity",
+      "id": "identity--8f5561bd-05a4-42d6-a684-2c0d8d6c1ad3",
+      "name": "Example Identity"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8f5561bd-05a4-42d6-a684-2c0d8d6c1ad4",
+      "name": "Example Indicator",
+      "pattern": "[file:hashes.md5 = 'd41d8cd98f00b204e9800998ecf8427e']"
+    }
+  ]
+}
