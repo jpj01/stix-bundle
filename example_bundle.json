@@ -40,14 +40,14 @@
 
 ,
     {
-      "type": "Indicator",
+      "type": "malware-analysis",
       "id": "T114",
       "name": "Data Exfiltration",
        "tactic":"lateral",
 "description": "The Evil Org threat actor group"
     },
     {
-      "type": "Indicator",
+      "type": "malware-analysis",
       "id": "T001",
       "name": "Standard Cryptographic Protocol",
        "tactic":"command and control",
