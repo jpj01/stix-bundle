@@ -5,7 +5,7 @@
     {
       "type": "indicator",
       "id": "T112",
-      "name": "Web Service",
+      "name": "T112: Web Service",
        "tactic":"T112: lateral",
 "description": "The Evil Org threat actor group"
     }
