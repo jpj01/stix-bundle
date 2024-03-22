@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--262076d3-5b96-4c70-a998-5e26b4d152e6",
+    "id": "bundle--4d97755b-89e4-4dfb-a2d5-623e6d186468",
     "objects": [
         {
             "type": "attack-pattern",
@@ -93,49 +93,49 @@
         {
             "type": "relationship",
             "id": "R1",
-            "source_ref": "T112",
+            "source_ref": "T1095",
             "target_ref": "G1013",
             "relationship_type": "used by"
         },
         {
             "type": "relationship",
             "id": "R2",
-            "source_ref": "T112",
+            "source_ref": "T1095",
             "target_ref": "G0068",
             "relationship_type": "used by"
         },
         {
             "type": "relationship",
             "id": "R3",
-            "source_ref": "T112",
+            "source_ref": "T1095",
             "target_ref": "G0037",
             "relationship_type": "used by"
         },
         {
             "type": "relationship",
             "id": "R4",
-            "source_ref": "T112",
+            "source_ref": "T1095",
             "target_ref": "G0135",
             "relationship_type": "used by"
         },
         {
             "type": "relationship",
             "id": "R5",
-            "source_ref": "T112",
+            "source_ref": "T1095",
             "target_ref": "G0022",
             "relationship_type": "used by"
         },
         {
             "type": "relationship",
             "id": "R6",
-            "source_ref": "T112",
+            "source_ref": "T1095",
             "target_ref": "G1002",
             "relationship_type": "used by"
         },
         {
             "type": "relationship",
             "id": "R7",
-            "source_ref": "T112",
+            "source_ref": "T1095",
             "target_ref": "G0125",
             "relationship_type": "used by"
         }
