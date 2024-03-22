@@ -3,7 +3,7 @@
   "id": "bundle--716fd67b-ba74-44db-8d4c-2efde05ddbaa",
   "objects": [
     {
-    "type": "attack-pattern",
+    "type": "indicator",
     "id": "T1001.003",
     "name": "Protocol Impersonation",
     "created": "2020-03-15 00:40:27.503000+00:00",
