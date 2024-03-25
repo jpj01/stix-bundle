@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3ba6dc8c-7aea-4c1e-9e55-b74c72e25904",
+    "id": "bundle--db4151cd-9164-4a0d-9780-ce540671ee57",
     "objects": [
         {
             "type": "attack-pattern",
@@ -13,7 +13,7 @@
         {
             "type": "threat-actor",
             "id": "G1013",
-            "name": "Metador",
+            "name": "G1013:Metador",
             "created": "2023-01-25 23:57:51.818000+00:00",
             "description": "[Metador](https://attack.mitre.org/groups/G1013) is a suspected cyber espionage group that was first reported in September 2022. [Metador](https://attack.mitre.org/groups/G1013) has targeted a limited number of telecommunication companies, internet service providers, and universities in the Middle East and Africa. Security researchers named the group [Metador](https://attack.mitre.org/groups/G1013) based on the \"I am meta\" string in one of the group's malware samples and the expectation of Spanish-language responses from C2 servers.(Citation: SentinelLabs Metador Sept 2022)",
             "tid": "intrusion-set--bfc5ddb3-4dfb-4278-8928-020e1b3feddd"
@@ -21,7 +21,7 @@
         {
             "type": "threat-actor",
             "id": "G0068",
-            "name": "PLATINUM",
+            "name": "G0068:PLATINUM",
             "created": "2018-04-18 17:59:24.739000+00:00",
             "description": "[PLATINUM](https://attack.mitre.org/groups/G0068) is an activity group that has targeted victims since at least 2009. The group has focused on targets associated with governments and related organizations in South and Southeast Asia. (Citation: Microsoft PLATINUM April 2016)",
             "tid": "intrusion-set--f9c06633-dcff-48a1-8588-759e7cec5694"
@@ -29,7 +29,7 @@
         {
             "type": "threat-actor",
             "id": "G0037",
-            "name": "FIN6",
+            "name": "G0037:FIN6",
             "created": "2017-05-31 21:32:06.015000+00:00",
             "description": "[FIN6](https://attack.mitre.org/groups/G0037) is a cyber crime group that has stolen payment card data and sold it for profit on underground marketplaces. This group has aggressively targeted and compromised point of sale (PoS) systems in the hospitality and retail sectors.(Citation: FireEye FIN6 April 2016)(Citation: FireEye FIN6 Apr 2019)",
             "tid": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb"
@@ -37,7 +37,7 @@
         {
             "type": "threat-actor",
             "id": "G0135",
-            "name": "BackdoorDiplomacy",
+            "name": "G0135:BackdoorDiplomacy",
             "created": "2021-09-21 14:52:49.596000+00:00",
             "description": "[BackdoorDiplomacy](https://attack.mitre.org/groups/G0135) is a cyber espionage threat group that has been active since at least 2017. [BackdoorDiplomacy](https://attack.mitre.org/groups/G0135) has targeted Ministries of Foreign Affairs and telecommunication companies in Africa, Europe, the Middle East, and Asia.(Citation: ESET BackdoorDiplomacy Jun 2021)",
             "tid": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93"
@@ -45,7 +45,7 @@
         {
             "type": "threat-actor",
             "id": "G0022",
-            "name": "APT3",
+            "name": "G0022:APT3",
             "created": "2017-05-31 21:31:55.853000+00:00",
             "description": "[APT3](https://attack.mitre.org/groups/G0022) is a China-based threat group that researchers have attributed to China's Ministry of State Security.(Citation: FireEye Clandestine Wolf)(Citation: Recorded Future APT3 May 2017) This group is responsible for the campaigns known as Operation Clandestine Fox, Operation Clandestine Wolf, and Operation Double Tap.(Citation: FireEye Clandestine Wolf)(Citation: FireEye Operation Double Tap) As of June 2015, the group appears to have shifted from targeting primarily US victims to primarily political organizations in Hong Kong.(Citation: Symantec Buckeye)\n\nIn 2017, MITRE developed an APT3 Adversary Emulation Plan.(Citation: APT3 Adversary Emulation Plan)",
             "tid": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9"
@@ -53,7 +53,7 @@
         {
             "type": "threat-actor",
             "id": "G1002",
-            "name": "BITTER",
+            "name": "G1002:BITTER",
             "created": "2022-06-01 20:26:53.880000+00:00",
             "description": "[BITTER](https://attack.mitre.org/groups/G1002) is a suspected South Asian cyber espionage threat group that has been active since at least 2013. [BITTER](https://attack.mitre.org/groups/G1002) has primarily targeted government, energy, and engineering organizations in Pakistan, China, Bangladesh, and Saudi Arabia.(Citation: Cisco Talos Bitter Bangladesh May 2022)(Citation: Forcepoint BITTER Pakistan Oct 2016)",
             "tid": "intrusion-set--7f848c02-4d1e-4808-a4ae-4670681370a9"
@@ -61,7 +61,7 @@
         {
             "type": "threat-actor",
             "id": "G0125",
-            "name": "HAFNIUM",
+            "name": "G0125:HAFNIUM",
             "created": "2021-03-03 19:40:47.280000+00:00",
             "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) is a likely state-sponsored cyber espionage group operating out of China that has been active since at least January 2021. [HAFNIUM](https://attack.mitre.org/groups/G0125) primarily targets entities in the US across a number of industry sectors, including infectious disease researchers, law firms, higher education institutions, defense contractors, policy think tanks, and NGOs.(Citation: Microsoft HAFNIUM March 2020)(Citation: Volexity Exchange Marauder March 2021)",
             "tid": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87"
@@ -69,7 +69,7 @@
         {
             "type": "malware-analysis",
             "id": "T1048.003",
-            "name": "Exfiltration Over Unencrypted Non-C2 Protocol",
+            "name": "T1048.003:Exfiltration Over Unencrypted Non-C2 Protocol",
             "tactic": "exfiltration",
             "parent_threat_actor": "FIN6",
             "tid": "attack-pattern--fb8d023d-45be-47e9-bc51-f56bcae6435b"
@@ -77,7 +77,7 @@
         {
             "type": "malware-analysis",
             "id": "T1041",
-            "name": "Exfiltration Over C2 Channel",
+            "name": "T1041:Exfiltration Over C2 Channel",
             "tactic": "exfiltration",
             "parent_threat_actor": "APT3",
             "tid": "attack-pattern--92d7da27-2d91-488e-a00c-059dc162766d"
@@ -85,7 +85,7 @@
         {
             "type": "malware-analysis",
             "id": "T1567.002",
-            "name": "Exfiltration to Cloud Storage",
+            "name": "T1567.002:Exfiltration to Cloud Storage",
             "tactic": "exfiltration",
             "parent_threat_actor": "HAFNIUM",
             "tid": "attack-pattern--bf1b6176-597c-4600-bfcd-ac989670f96b"
