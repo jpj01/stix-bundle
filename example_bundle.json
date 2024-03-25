@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4d97755b-89e4-4dfb-a2d5-623e6d186468",
+    "id": "bundle--3ba6dc8c-7aea-4c1e-9e55-b74c72e25904",
     "objects": [
         {
             "type": "attack-pattern",
@@ -138,6 +138,27 @@
             "source_ref": "T1095",
             "target_ref": "G0125",
             "relationship_type": "used by"
+        },
+        {
+            "type": "relationship",
+            "id": "R8",
+            "source_ref": "G0037",
+            "target_ref": "T1048.003",
+            "relationship_type": "next stage attack"
+        },
+        {
+            "type": "relationship",
+            "id": "R9",
+            "source_ref": "G0022",
+            "target_ref": "T1041",
+            "relationship_type": "next stage attack"
+        },
+        {
+            "type": "relationship",
+            "id": "R10",
+            "source_ref": "G0125",
+            "target_ref": "T1567.002",
+            "relationship_type": "next stage attack"
         }
     ]
 }
